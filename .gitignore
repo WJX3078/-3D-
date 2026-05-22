@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+.venv-1/
+venv/
+env/
+
+# Local outputs and generated artifacts
+outputs/*
+!outputs/.gitkeep
+camera_params.json
+current_view.png
+mask.png
+segmented_pointcloud_*.pcd
+segmented_pointcloud_*.ply
+*.npz
+
+# Medical/raw data. Do not commit patient data to a public repository.
+ZHANG JING RTKA/
+CT图像/
+CT图像.zip
+predictions/
+data/raw/
+data/ct_slices/
+data/dicom/
+data/pointclouds/
+
+# Large media and reference files
+论文/
+PPT备选图片/
+*.pdf
+*.mp4
+*.avi
+*.mov
+
+# External repositories and downloaded tools.
+# Keep setup instructions in docs instead of committing nested repos.
+BiomedCLIP_data_pipeline-main/
+MedCLIP-main/
+semantic-segmentation-editor-master/
+sse-editor/
+FUNSR/
+
+# Legacy local prototypes kept on disk but not part of the clean GitHub package.
+制作的网页/
+标注工具/
+支持手动划分修改的操作/
+PROJECT_STATUS.md
+PIPELINE_README.md
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

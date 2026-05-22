@@ -1,0 +1,13 @@
+# FUNSR was originally implemented with Python 3.8, PyTorch 1.12.1 and CUDA 11.6.
+# Install a PyTorch build that matches your local CUDA version before installing
+# the remaining packages below.
+torch
+torchvision
+torchaudio
+tqdm
+pyhocon==0.3.57
+trimesh
+PyMCubes
+scipy
+matplotlib
+
